@@ -21,7 +21,8 @@ spec:
       containers:
         - name: myapp
           # image: swaroops2803/cicd:v4
-          image: swaroops2803/k8s-app:<run_number>
+          # image: swaroops2803/k8s-app:<run_number>
+          image: swaroops2803/k8s-app:2
           # resources:
           #   limits:
           #     memory: "128Mi"
